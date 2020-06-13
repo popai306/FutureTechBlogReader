@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,13 +11,12 @@
 		5DC174CA80980AC2D8D253FA /* Pods_TechnicalBookStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */; };
 		8FD3EE03CCE02BBEFBD98897 /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */; };
 		952C8835249493EF00777BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8834249493EF00777BAF /* AppDelegate.swift */; };
-		952C8837249493EF00777BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8836249493EF00777BAF /* SceneDelegate.swift */; };
-		952C8839249493EF00777BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* ViewController.swift */; };
-		952C883C249493EF00777BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952C883A249493EF00777BAF /* Main.storyboard */; };
+		952C8839249493EF00777BAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* MainViewController.swift */; };
 		952C883E249493F300777BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952C883D249493F300777BAF /* Assets.xcassets */; };
 		952C8841249493F300777BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952C883F249493F300777BAF /* LaunchScreen.storyboard */; };
 		952C884C249493F400777BAF /* TechnicalBookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C884B249493F400777BAF /* TechnicalBookStoreTests.swift */; };
 		952C8857249493F400777BAF /* TechnicalBookStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */; };
+		952C8865249497AF00777BAF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8864249497AF00777BAF /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +42,7 @@
 		603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8831249493EF00777BAF /* TechnicalBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8834249493EF00777BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		952C8836249493EF00777BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		952C8838249493EF00777BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		952C883B249493EF00777BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952C8838249493EF00777BAF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		952C883D249493F300777BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952C8840249493F300777BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		952C8842249493F300777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +52,7 @@
 		952C8852249493F400777BAF /* TechnicalBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalBookStoreUITests.swift; sourceTree = "<group>"; };
 		952C8858249493F400777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952C8864249497AF00777BAF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore.release.xcconfig"; sourceTree = "<group>"; };
 		B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,9 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				952C8834249493EF00777BAF /* AppDelegate.swift */,
-				952C8836249493EF00777BAF /* SceneDelegate.swift */,
-				952C8838249493EF00777BAF /* ViewController.swift */,
-				952C883A249493EF00777BAF /* Main.storyboard */,
+				952C8838249493EF00777BAF /* MainViewController.swift */,
+				952C8864249497AF00777BAF /* MainView.swift */,
 				952C883D249493F300777BAF /* Assets.xcassets */,
 				952C883F249493F300777BAF /* LaunchScreen.storyboard */,
 				952C8842249493F300777BAF /* Info.plist */,
@@ -165,7 +162,6 @@
 				407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */,
 				CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,7 +276,6 @@
 			files = (
 				952C8841249493F300777BAF /* LaunchScreen.storyboard in Resources */,
 				952C883E249493F300777BAF /* Assets.xcassets in Resources */,
-				952C883C249493EF00777BAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952C8839249493EF00777BAF /* ViewController.swift in Sources */,
+				952C8839249493EF00777BAF /* MainViewController.swift in Sources */,
+				952C8865249497AF00777BAF /* MainView.swift in Sources */,
 				952C8835249493EF00777BAF /* AppDelegate.swift in Sources */,
-				952C8837249493EF00777BAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		952C883A249493EF00777BAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				952C883B249493EF00777BAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		952C883F249493F300777BAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -515,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -569,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -587,6 +574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55BNLMBTDP;
 				INFOPLIST_FILE = TechnicalBookStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -606,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55BNLMBTDP;
 				INFOPLIST_FILE = TechnicalBookStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +602,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
