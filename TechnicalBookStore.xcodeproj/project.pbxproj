@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1534BF5B3DD70792761EA4E4 /* Pods_TechnicalBookStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */; };
+		5DC174CA80980AC2D8D253FA /* Pods_TechnicalBookStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */; };
+		8FD3EE03CCE02BBEFBD98897 /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */; };
 		952C8835249493EF00777BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8834249493EF00777BAF /* AppDelegate.swift */; };
 		952C8837249493EF00777BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8836249493EF00777BAF /* SceneDelegate.swift */; };
 		952C8839249493EF00777BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8831249493EF00777BAF /* TechnicalBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8834249493EF00777BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		952C8836249493EF00777BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		952C8852249493F400777BAF /* TechnicalBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalBookStoreUITests.swift; sourceTree = "<group>"; };
 		952C8858249493F400777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore.release.xcconfig"; sourceTree = "<group>"; };
+		B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AC1715F06E58C4F24E0D59 /* Pods-TechnicalBookStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1534BF5B3DD70792761EA4E4 /* Pods_TechnicalBookStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC174CA80980AC2D8D253FA /* Pods_TechnicalBookStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD3EE03CCE02BBEFBD98897 /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382DD6E2CA5427B4E77AFD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */,
+				D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */,
+				603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		952C8828249493EF00777BAF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				952C884A249493F300777BAF /* TechnicalBookStoreTests */,
 				952C8855249493F400777BAF /* TechnicalBookStoreUITests */,
 				952C8832249493EF00777BAF /* Products */,
+				B4BF631E0BA39887A4E5C93B /* Pods */,
+				382DD6E2CA5427B4E77AFD62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = TechnicalBookStoreUITests;
 			sourceTree = "<group>";
 		};
+		B4BF631E0BA39887A4E5C93B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC1715F06E58C4F24E0D59 /* Pods-TechnicalBookStore.debug.xcconfig */,
+				A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */,
+				B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */,
+				524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */,
+				407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */,
+				CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 952C885B249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStore" */;
 			buildPhases = (
+				231727F2D7A4E2C70C29DB0C /* [CP] Check Pods Manifest.lock */,
 				952C882D249493EF00777BAF /* Sources */,
 				952C882E249493EF00777BAF /* Frameworks */,
 				952C882F249493EF00777BAF /* Resources */,
+				2E6E95AA30C84E81E6DD425E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 952C885E249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreTests" */;
 			buildPhases = (
+				F3B1808BB44E21C3927D12A3 /* [CP] Check Pods Manifest.lock */,
 				952C8843249493F300777BAF /* Sources */,
 				952C8844249493F300777BAF /* Frameworks */,
 				952C8845249493F300777BAF /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 952C8861249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreUITests" */;
 			buildPhases = (
+				92CE33AE8B24AB49EC9DAAA2 /* [CP] Check Pods Manifest.lock */,
 				952C884E249493F400777BAF /* Sources */,
 				952C884F249493F400777BAF /* Frameworks */,
 				952C8850249493F400777BAF /* Resources */,
+				33767BC3132639EDFA45B225 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231727F2D7A4E2C70C29DB0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E6E95AA30C84E81E6DD425E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33767BC3132639EDFA45B225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CE33AE8B24AB49EC9DAAA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStore-TechnicalBookStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B1808BB44E21C3927D12A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		952C882D249493EF00777BAF /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		952C885C249493F400777BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AC1715F06E58C4F24E0D59 /* Pods-TechnicalBookStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		952C885D249493F400777BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		952C885F249493F400777BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		952C8860249493F400777BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		952C8862249493F400777BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		952C8863249493F400777BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
