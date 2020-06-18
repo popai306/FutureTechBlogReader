@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		952C8835249493EF00777BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8834249493EF00777BAF /* AppDelegate.swift */; };
-		952C8839249493EF00777BAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* MainViewController.swift */; };
+		952C8839249493EF00777BAF /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* ReaderViewController.swift */; };
 		952C883E249493F300777BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952C883D249493F300777BAF /* Assets.xcassets */; };
 		952C8841249493F300777BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952C883F249493F300777BAF /* LaunchScreen.storyboard */; };
-		952C8865249497AF00777BAF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8864249497AF00777BAF /* MainView.swift */; };
+		952C8865249497AF00777BAF /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8864249497AF00777BAF /* ReaderView.swift */; };
 		952C88672494DA9600777BAF /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C88662494DA9500777BAF /* ArticleController.swift */; };
 		952C88692494E2CA00777BAF /* LargeArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C88682494E2CA00777BAF /* LargeArticleCell.swift */; };
 		952C886B2494E59D00777BAF /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C886A2494E59D00777BAF /* SectionView.swift */; };
@@ -26,11 +26,11 @@
 		603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8831249493EF00777BAF /* FutureTechBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureTechBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8834249493EF00777BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		952C8838249493EF00777BAF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		952C8838249493EF00777BAF /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 		952C883D249493F300777BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952C8840249493F300777BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		952C8842249493F300777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		952C8864249497AF00777BAF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		952C8864249497AF00777BAF /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
 		952C88662494DA9500777BAF /* ArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
 		952C88682494E2CA00777BAF /* LargeArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeArticleCell.swift; sourceTree = "<group>"; };
 		952C886A2494E59D00777BAF /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				952C8834249493EF00777BAF /* AppDelegate.swift */,
-				952C8838249493EF00777BAF /* MainViewController.swift */,
-				952C8864249497AF00777BAF /* MainView.swift */,
+				952C8838249493EF00777BAF /* ReaderViewController.swift */,
+				952C8864249497AF00777BAF /* ReaderView.swift */,
 				952C88662494DA9500777BAF /* ArticleController.swift */,
 				952C886A2494E59D00777BAF /* SectionView.swift */,
 				956162982495F0DD00034224 /* Cell */,
@@ -239,9 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				952C88672494DA9600777BAF /* ArticleController.swift in Sources */,
-				952C8839249493EF00777BAF /* MainViewController.swift in Sources */,
+				952C8839249493EF00777BAF /* ReaderViewController.swift in Sources */,
 				952C886B2494E59D00777BAF /* SectionView.swift in Sources */,
-				952C8865249497AF00777BAF /* MainView.swift in Sources */,
+				952C8865249497AF00777BAF /* ReaderView.swift in Sources */,
 				952C886D249523F500777BAF /* ArticleCell.swift in Sources */,
 				952C88692494E2CA00777BAF /* LargeArticleCell.swift in Sources */,
 				952C8835249493EF00777BAF /* AppDelegate.swift in Sources */,

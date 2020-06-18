@@ -9,7 +9,7 @@
 import UIKit
 import PinLayout
 
-class MainView: UIView {
+class ReaderView: UIView {
     
     var collectionView: UICollectionView! = nil
     var dataSource: UICollectionViewDiffableDataSource<ArticleCollection, Article>! = nil
@@ -45,7 +45,7 @@ class MainView: UIView {
     }
 }
 
-extension MainView {
+extension ReaderView {
     func createLayout() -> UICollectionViewLayout {
         let sectionProvider = { (sectionIndex: Int,
             layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in

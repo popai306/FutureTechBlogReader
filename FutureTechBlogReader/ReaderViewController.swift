@@ -8,16 +8,16 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class ReaderViewController: UIViewController {
     
     var currentSnapshot: NSDiffableDataSourceSnapshot<ArticleCollection, Article>! = nil
     var articleController = ArticleController()
     
-    private var v: MainView
+    private var v: ReaderView
     override func loadView() { view = v }
     
     init() {
-        v = MainView()
+        v = ReaderView()
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -39,12 +39,12 @@ class MainViewController: UIViewController {
     }
 }
 
-extension MainViewController {
+extension ReaderViewController {
     func configureDataSource() {
         v.dataSource = UICollectionViewDiffableDataSource<ArticleCollection, Article> (collectionView: v.collectionView) {
             (collectionView: UICollectionView, indexPath: IndexPath, article: Article) -> UICollectionViewCell? in
             
-            guard let sectionKind = MainView.SectionLayoutKind(rawValue: indexPath.section) else { fatalError("unknown section kind") }
+            guard let sectionKind = ReaderView.SectionLayoutKind(rawValue: indexPath.section) else { fatalError("unknown section kind") }
             
             switch sectionKind {
             case .recommend:
@@ -87,7 +87,7 @@ extension MainViewController {
     }
 }
 
-extension MainViewController: UICollectionViewDelegate {
+extension ReaderViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.cellForItem(at: indexPath)
     }
