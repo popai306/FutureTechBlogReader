@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1534BF5B3DD70792761EA4E4 /* Pods_TechnicalBookStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */; };
 		952C8835249493EF00777BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8834249493EF00777BAF /* AppDelegate.swift */; };
 		952C8839249493EF00777BAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* MainViewController.swift */; };
 		952C883E249493F300777BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952C883D249493F300777BAF /* Assets.xcassets */; };
@@ -17,9 +16,11 @@
 		952C88692494E2CA00777BAF /* LargeArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C88682494E2CA00777BAF /* LargeArticleCell.swift */; };
 		952C886B2494E59D00777BAF /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C886A2494E59D00777BAF /* SectionView.swift */; };
 		952C886D249523F500777BAF /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C886C249523F500777BAF /* ArticleCell.swift */; };
+		F4A862AC08401589532C7869 /* Pods_FutureTechBlogReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEBBAD649A8E85D7AA13FA9 /* Pods_FutureTechBlogReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BEBBAD649A8E85D7AA13FA9 /* Pods_FutureTechBlogReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FutureTechBlogReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,8 +37,9 @@
 		952C886C249523F500777BAF /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore.release.xcconfig"; sourceTree = "<group>"; };
 		B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9827470B9EE98477CB3B556 /* Pods-FutureTechBlogReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FutureTechBlogReader.debug.xcconfig"; path = "Target Support Files/Pods-FutureTechBlogReader/Pods-FutureTechBlogReader.debug.xcconfig"; sourceTree = "<group>"; };
 		CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5331E1E4BBC7ABDA60FBB9 /* Pods-FutureTechBlogReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FutureTechBlogReader.release.xcconfig"; path = "Target Support Files/Pods-FutureTechBlogReader/Pods-FutureTechBlogReader.release.xcconfig"; sourceTree = "<group>"; };
 		D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AC1715F06E58C4F24E0D59 /* Pods-TechnicalBookStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1534BF5B3DD70792761EA4E4 /* Pods_TechnicalBookStore.framework in Frameworks */,
+				F4A862AC08401589532C7869 /* Pods_FutureTechBlogReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +59,9 @@
 		382DD6E2CA5427B4E77AFD62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */,
 				D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */,
 				603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */,
+				2BEBBAD649A8E85D7AA13FA9 /* Pods_FutureTechBlogReader.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +118,8 @@
 				524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */,
 				407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */,
 				CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */,
+				C9827470B9EE98477CB3B556 /* Pods-FutureTechBlogReader.debug.xcconfig */,
+				CC5331E1E4BBC7ABDA60FBB9 /* Pods-FutureTechBlogReader.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,7 +207,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStore-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FutureTechBlogReader-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -216,15 +220,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FutureTechBlogReader/Pods-FutureTechBlogReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FutureTechBlogReader/Pods-FutureTechBlogReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FutureTechBlogReader/Pods-FutureTechBlogReader-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -374,18 +378,18 @@
 		};
 		952C885C249493F400777BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7AC1715F06E58C4F24E0D59 /* Pods-TechnicalBookStore.debug.xcconfig */;
+			baseConfigurationReference = C9827470B9EE98477CB3B556 /* Pods-FutureTechBlogReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FutureTechBlogReader/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStore;
+				PRODUCT_BUNDLE_IDENTIFIER = FutureTechBlogReader.FutureTechBlogReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -394,18 +398,18 @@
 		};
 		952C885D249493F400777BAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B6A65B1284740DFA859805 /* Pods-TechnicalBookStore.release.xcconfig */;
+			baseConfigurationReference = CC5331E1E4BBC7ABDA60FBB9 /* Pods-FutureTechBlogReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FutureTechBlogReader/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStore;
+				PRODUCT_BUNDLE_IDENTIFIER = FutureTechBlogReader.FutureTechBlogReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

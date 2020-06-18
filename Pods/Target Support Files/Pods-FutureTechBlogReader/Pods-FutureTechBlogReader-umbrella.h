@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TechnicalBookStoreTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TechnicalBookStoreTestsVersionString[];
+FOUNDATION_EXPORT double Pods_FutureTechBlogReaderVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FutureTechBlogReaderVersionString[];
 

@@ -1,6 +1,0 @@
-framework module Pods_TechnicalBookStoreTests {
-  umbrella header "Pods-TechnicalBookStoreTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

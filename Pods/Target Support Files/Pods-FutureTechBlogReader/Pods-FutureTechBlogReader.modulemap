@@ -1,0 +1,6 @@
+framework module Pods_FutureTechBlogReader {
+  umbrella header "Pods-FutureTechBlogReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
