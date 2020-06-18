@@ -40,6 +40,7 @@ extension ArticleCell {
         imageView.layer.borderWidth = 1
         imageView.layer.borderColor = UIColor.black.cgColor
         
+        titleLabel.textColor = .black
         titleLabel.font = .systemFont(ofSize: 16, weight: .regular)
         titleLabel.numberOfLines = 3
     }

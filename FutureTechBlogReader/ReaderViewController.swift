@@ -30,6 +30,7 @@ class ReaderViewController: UIViewController {
         
         navigationItem.title = "Future Tech Blog"
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor : UIColor.black]
         navigationItem.largeTitleDisplayMode = .always
         
         configureDataSource()
