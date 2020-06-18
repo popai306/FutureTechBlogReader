@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ReaderViewController: UIViewController {
     
@@ -90,6 +91,11 @@ extension ReaderViewController {
 
 extension ReaderViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.cellForItem(at: indexPath)
+        guard let hashValue = collectionView.cellForItem(at: indexPath)?.tag,
+            let url = articleController.getArticleUrl(with: hashValue) else { return }
+        
+        let webVC = SFSafariViewController(url: URL(string: url)!)
+        webVC.modalPresentationStyle = .formSheet
+        present(webVC, animated: true, completion: nil)
     }
 }

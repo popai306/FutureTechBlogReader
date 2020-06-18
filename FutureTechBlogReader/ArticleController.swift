@@ -69,3 +69,16 @@ class ArticleController {
                                                            Article(title: "#05 CloudEventsのGo版SDKをいじってみる", urlString: "https://future-architect.github.io/articles/20200331/", icon: UIImage(named: "serverless5")!)])]
     }
 }
+
+extension ArticleController {
+    func getArticleUrl(with hash: Int) -> String? {
+        for collection in articleCollections {
+            for article in collection.articles {
+                if article.hashValue == hash {
+                    return article.urlString
+                }
+            }
+        }
+        return nil
+    }
+}
