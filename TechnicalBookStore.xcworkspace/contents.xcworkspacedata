@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TechnicalBookStore.xcodeproj">
+      location = "group:/Users/tomohirofukuya/Documents/ios-app/FutureTechBlogReader/FutureTechBlogReader.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

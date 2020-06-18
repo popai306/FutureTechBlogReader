@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1534BF5B3DD70792761EA4E4 /* Pods_TechnicalBookStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC176069DCA93B8AE2A4F69 /* Pods_TechnicalBookStore.framework */; };
-		5DC174CA80980AC2D8D253FA /* Pods_TechnicalBookStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */; };
-		8FD3EE03CCE02BBEFBD98897 /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3453A6E5E1031C3FDFA5E9E /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework */; };
 		952C8835249493EF00777BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8834249493EF00777BAF /* AppDelegate.swift */; };
 		952C8839249493EF00777BAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8838249493EF00777BAF /* MainViewController.swift */; };
 		952C883E249493F300777BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952C883D249493F300777BAF /* Assets.xcassets */; };
 		952C8841249493F300777BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952C883F249493F300777BAF /* LaunchScreen.storyboard */; };
-		952C884C249493F400777BAF /* TechnicalBookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C884B249493F400777BAF /* TechnicalBookStoreTests.swift */; };
-		952C8857249493F400777BAF /* TechnicalBookStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */; };
 		952C8865249497AF00777BAF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8864249497AF00777BAF /* MainView.swift */; };
 		952C88672494DA9600777BAF /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C88662494DA9500777BAF /* ArticleController.swift */; };
 		952C88692494E2CA00777BAF /* LargeArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C88682494E2CA00777BAF /* LargeArticleCell.swift */; };
@@ -23,39 +19,16 @@
 		952C886D249523F500777BAF /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C886C249523F500777BAF /* ArticleCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		952C8848249493F300777BAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 952C8829249493EF00777BAF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 952C8830249493EF00777BAF;
-			remoteInfo = TechnicalBookStore;
-		};
-		952C8853249493F400777BAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 952C8829249493EF00777BAF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 952C8830249493EF00777BAF;
-			remoteInfo = TechnicalBookStore;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStoreTests/Pods-TechnicalBookStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		603C2CA8E84E1BCF276B5567 /* Pods_TechnicalBookStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalBookStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		952C8831249493EF00777BAF /* TechnicalBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952C8831249493EF00777BAF /* FutureTechBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureTechBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952C8834249493EF00777BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		952C8838249493EF00777BAF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		952C883D249493F300777BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952C8840249493F300777BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		952C8842249493F300777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		952C8847249493F300777BAF /* TechnicalBookStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalBookStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		952C884B249493F400777BAF /* TechnicalBookStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalBookStoreTests.swift; sourceTree = "<group>"; };
-		952C884D249493F400777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		952C8852249493F400777BAF /* TechnicalBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalBookStoreUITests.swift; sourceTree = "<group>"; };
-		952C8858249493F400777BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		952C8864249497AF00777BAF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		952C88662494DA9500777BAF /* ArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
 		952C88682494E2CA00777BAF /* LargeArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeArticleCell.swift; sourceTree = "<group>"; };
@@ -78,22 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		952C8844249493F300777BAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DC174CA80980AC2D8D253FA /* Pods_TechnicalBookStoreTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C884F249493F400777BAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FD3EE03CCE02BBEFBD98897 /* Pods_TechnicalBookStore_TechnicalBookStoreUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,9 +67,7 @@
 		952C8828249493EF00777BAF = {
 			isa = PBXGroup;
 			children = (
-				952C8833249493EF00777BAF /* TechnicalBookStore */,
-				952C884A249493F300777BAF /* TechnicalBookStoreTests */,
-				952C8855249493F400777BAF /* TechnicalBookStoreUITests */,
+				952C8833249493EF00777BAF /* FutureTechBlogReader */,
 				952C8832249493EF00777BAF /* Products */,
 				B4BF631E0BA39887A4E5C93B /* Pods */,
 				382DD6E2CA5427B4E77AFD62 /* Frameworks */,
@@ -122,14 +77,12 @@
 		952C8832249493EF00777BAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				952C8831249493EF00777BAF /* TechnicalBookStore.app */,
-				952C8847249493F300777BAF /* TechnicalBookStoreTests.xctest */,
-				952C8852249493F400777BAF /* TechnicalBookStoreUITests.xctest */,
+				952C8831249493EF00777BAF /* FutureTechBlogReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		952C8833249493EF00777BAF /* TechnicalBookStore */ = {
+		952C8833249493EF00777BAF /* FutureTechBlogReader */ = {
 			isa = PBXGroup;
 			children = (
 				952C8834249493EF00777BAF /* AppDelegate.swift */,
@@ -142,25 +95,7 @@
 				952C883F249493F300777BAF /* LaunchScreen.storyboard */,
 				952C8842249493F300777BAF /* Info.plist */,
 			);
-			path = TechnicalBookStore;
-			sourceTree = "<group>";
-		};
-		952C884A249493F300777BAF /* TechnicalBookStoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				952C884B249493F400777BAF /* TechnicalBookStoreTests.swift */,
-				952C884D249493F400777BAF /* Info.plist */,
-			);
-			path = TechnicalBookStoreTests;
-			sourceTree = "<group>";
-		};
-		952C8855249493F400777BAF /* TechnicalBookStoreUITests */ = {
-			isa = PBXGroup;
-			children = (
-				952C8856249493F400777BAF /* TechnicalBookStoreUITests.swift */,
-				952C8858249493F400777BAF /* Info.plist */,
-			);
-			path = TechnicalBookStoreUITests;
+			path = FutureTechBlogReader;
 			sourceTree = "<group>";
 		};
 		956162982495F0DD00034224 /* Cell */ = {
@@ -188,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		952C8830249493EF00777BAF /* TechnicalBookStore */ = {
+		952C8830249493EF00777BAF /* FutureTechBlogReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 952C885B249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStore" */;
+			buildConfigurationList = 952C885B249493F400777BAF /* Build configuration list for PBXNativeTarget "FutureTechBlogReader" */;
 			buildPhases = (
 				231727F2D7A4E2C70C29DB0C /* [CP] Check Pods Manifest.lock */,
 				952C882D249493EF00777BAF /* Sources */,
@@ -202,49 +137,10 @@
 			);
 			dependencies = (
 			);
-			name = TechnicalBookStore;
+			name = FutureTechBlogReader;
 			productName = TechnicalBookStore;
-			productReference = 952C8831249493EF00777BAF /* TechnicalBookStore.app */;
+			productReference = 952C8831249493EF00777BAF /* FutureTechBlogReader.app */;
 			productType = "com.apple.product-type.application";
-		};
-		952C8846249493F300777BAF /* TechnicalBookStoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 952C885E249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreTests" */;
-			buildPhases = (
-				F3B1808BB44E21C3927D12A3 /* [CP] Check Pods Manifest.lock */,
-				952C8843249493F300777BAF /* Sources */,
-				952C8844249493F300777BAF /* Frameworks */,
-				952C8845249493F300777BAF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				952C8849249493F300777BAF /* PBXTargetDependency */,
-			);
-			name = TechnicalBookStoreTests;
-			productName = TechnicalBookStoreTests;
-			productReference = 952C8847249493F300777BAF /* TechnicalBookStoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		952C8851249493F400777BAF /* TechnicalBookStoreUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 952C8861249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreUITests" */;
-			buildPhases = (
-				92CE33AE8B24AB49EC9DAAA2 /* [CP] Check Pods Manifest.lock */,
-				952C884E249493F400777BAF /* Sources */,
-				952C884F249493F400777BAF /* Frameworks */,
-				952C8850249493F400777BAF /* Resources */,
-				33767BC3132639EDFA45B225 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				952C8854249493F400777BAF /* PBXTargetDependency */,
-			);
-			name = TechnicalBookStoreUITests;
-			productName = TechnicalBookStoreUITests;
-			productReference = 952C8852249493F400777BAF /* TechnicalBookStoreUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -259,17 +155,9 @@
 					952C8830249493EF00777BAF = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					952C8846249493F300777BAF = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 952C8830249493EF00777BAF;
-					};
-					952C8851249493F400777BAF = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 952C8830249493EF00777BAF;
-					};
 				};
 			};
-			buildConfigurationList = 952C882C249493EF00777BAF /* Build configuration list for PBXProject "TechnicalBookStore" */;
+			buildConfigurationList = 952C882C249493EF00777BAF /* Build configuration list for PBXProject "FutureTechBlogReader" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -282,9 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				952C8830249493EF00777BAF /* TechnicalBookStore */,
-				952C8846249493F300777BAF /* TechnicalBookStoreTests */,
-				952C8851249493F400777BAF /* TechnicalBookStoreUITests */,
+				952C8830249493EF00777BAF /* FutureTechBlogReader */,
 			);
 		};
 /* End PBXProject section */
@@ -296,20 +182,6 @@
 			files = (
 				952C8841249493F300777BAF /* LaunchScreen.storyboard in Resources */,
 				952C883E249493F300777BAF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C8845249493F300777BAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C8850249493F400777BAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,67 +227,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore/Pods-TechnicalBookStore-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		33767BC3132639EDFA45B225 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalBookStore-TechnicalBookStoreUITests/Pods-TechnicalBookStore-TechnicalBookStoreUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92CE33AE8B24AB49EC9DAAA2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStore-TechnicalBookStoreUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3B1808BB44E21C3927D12A3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TechnicalBookStoreTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -433,36 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		952C8843249493F300777BAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C884C249493F400777BAF /* TechnicalBookStoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C884E249493F400777BAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C8857249493F400777BAF /* TechnicalBookStoreUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		952C8849249493F300777BAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 952C8830249493EF00777BAF /* TechnicalBookStore */;
-			targetProxy = 952C8848249493F300777BAF /* PBXContainerItemProxy */;
-		};
-		952C8854249493F400777BAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 952C8830249493EF00777BAF /* TechnicalBookStore */;
-			targetProxy = 952C8853249493F400777BAF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		952C883F249493F300777BAF /* LaunchScreen.storyboard */ = {
@@ -630,98 +412,10 @@
 			};
 			name = Release;
 		};
-		952C885F249493F400777BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 407F8050D338377662EF62AE /* Pods-TechnicalBookStoreTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicalBookStore.app/TechnicalBookStore";
-			};
-			name = Debug;
-		};
-		952C8860249493F400777BAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBC5C007F0DD304E64E256EA /* Pods-TechnicalBookStoreTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicalBookStore.app/TechnicalBookStore";
-			};
-			name = Release;
-		};
-		952C8862249493F400777BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F21198AA7ECC982A3EFA21 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TechnicalBookStore;
-			};
-			name = Debug;
-		};
-		952C8863249493F400777BAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524B2402E458EDB51D9B39D9 /* Pods-TechnicalBookStore-TechnicalBookStoreUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55BNLMBTDP;
-				INFOPLIST_FILE = TechnicalBookStoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechnicalBookStore.TechnicalBookStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TechnicalBookStore;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		952C882C249493EF00777BAF /* Build configuration list for PBXProject "TechnicalBookStore" */ = {
+		952C882C249493EF00777BAF /* Build configuration list for PBXProject "FutureTechBlogReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				952C8859249493F400777BAF /* Debug */,
@@ -730,29 +424,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		952C885B249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStore" */ = {
+		952C885B249493F400777BAF /* Build configuration list for PBXNativeTarget "FutureTechBlogReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				952C885C249493F400777BAF /* Debug */,
 				952C885D249493F400777BAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		952C885E249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				952C885F249493F400777BAF /* Debug */,
-				952C8860249493F400777BAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		952C8861249493F400777BAF /* Build configuration list for PBXNativeTarget "TechnicalBookStoreUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				952C8862249493F400777BAF /* Debug */,
-				952C8863249493F400777BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
